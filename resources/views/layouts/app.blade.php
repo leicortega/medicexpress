@@ -160,7 +160,7 @@
                             <h1>What Makes Us Better, Makes <br> You Better.</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu lacus ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos ipsum dolor sit amet.</p>
                             <a href="#" class="btn btn-primary">Make Appointment</a>
-                            <a href="https://www.youtube.com/watch?v=pBFQdxA-apI" class="play-btn popup-youtube"><i class="fas fa-play"></i></a>
+                            <!--<a href="https://www.youtube.com/watch?v=pBFQdxA-apI" class="play-btn popup-youtube"><i class="fas fa-play"></i></a>-->
                         </div>
 
                         <!--//End Slider Title -->
@@ -183,7 +183,7 @@
                             <h1>What Makes Us Better, Makes <br> You Better.</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu lacus ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos ipsum dolor sit amet.</p>
                             <a href="#" class="btn btn-primary">Make Appointment</a>
-                            <a href="https://www.youtube.com/watch?v=pBFQdxA-apI" class="play-btn popup-youtube"><i class="fas fa-play"></i></a>
+                            <!--<a href="https://www.youtube.com/watch?v=pBFQdxA-apI" class="play-btn popup-youtube"><i class="fas fa-play"></i></a>-->
                         </div>
                         <!--//End Slider Title -->
                     </div>
@@ -206,7 +206,7 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-4">
                     <div class="foot-contact-block">
-                        <img src="{{asset('assets/img/foot-logo.png')}}" class="img-fluid" alt="#" />
+                        <img src="{{asset('assets/img//logo/logo.jpg')}}" class="img-fluid" alt="#"  style="width: 160px;"/>
                         <p>
                             Lorem ipsum dolor sit amet, consect <br /> etur adipisicing elit, sed do eius mod <br />
                             tempor incididunt ut labore et dolore<br /> magna aliqua. Ut enim ad minim
@@ -215,7 +215,7 @@
                             <h4><i class="fas fa-phone"></i>3123 456 7890</h4>
                         </a>
                         <a href="mailto:info@mededin.com">
-                            <h4><i class="far fa-envelope"></i>info@mededin.com</h4>
+                            <h4><i class="far fa-envelope"></i>medicexpress@exam.com</h4>
                         </a>
                     </div>
                 </div>
@@ -246,25 +246,31 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-2">
                     <div class="foot-link-box">
-                        <h4>Our Services</h4>
+                        <h4>Contamos con</h4>
                         <ul>
                             <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Pediatrics</a>
+                                <a href="#"><i class="fas fa-angle-double-right"></i>Fichas medicas</a>
                             </li>
                             <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Dermatology</a>
+                                <a href="#"><i class="fas fa-angle-double-right"></i>Laboratorio clinico</a>
                             </li>
                             <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Cardiology</a>
+                                <a href="#"><i class="fas fa-angle-double-right"></i>Examenes</a>
                             </li>
                             <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Psychological</a>
+                                <a href="#"><i class="fas fa-angle-double-right"></i>Electrocardiografia</a>
                             </li>
                             <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Surgery</a>
+                                <a href="#"><i class="fas fa-angle-double-right"></i>Espirometria</a>
                             </li>
                             <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Family Medicine</a>
+                                <a href="#"><i class="fas fa-angle-double-right"></i>Rayos X</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fas fa-angle-double-right"></i>Audiometria</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fas fa-angle-double-right"></i>Ecografias</a>
                             </li>
                         </ul>
                     </div>
@@ -294,7 +300,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="copyright">
-                        <p>© Medenin 2020 Allright Reserved</p>
+                        <p>Copyright © Medicexpress 2021. Todos lo derechos reservados</p>
                         <a href="#" id="scroll"><i class="fas fa-angle-double-up"></i></a>
                     </div>
                 </div>

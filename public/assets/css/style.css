@@ -1014,6 +1014,10 @@ a:focus {
 }
 
 /* --------- About Section --------- */
+.about-section a{
+  border-radius: 8px;
+  font-size: 13px;
+}
 .about-experience {
   padding: 80px 0 0;
 }
@@ -1328,14 +1332,15 @@ a:focus {
 
 .booking-form-style2 {
   position: relative;
-  background: #4d72d0;
+  background: #00a8d2;
   border-radius: 6px;
   padding: 24px 30px;
   margin: 35px 0 0;
 }
 @media (min-width: 768px) {
   .booking-form-style2 {
-    margin: -210px 0 0;
+    /* margin: -210px 0 0; */
+    margin: 0;
   }
 }
 .booking-form-style2 h3 {
@@ -2227,16 +2232,16 @@ footer {
 }
 @media (min-width: 992px) {
   footer {
-    background: url(../images/footer-bg.jpg) no-repeat #3c3f42;
+    background: url(../img/footer-bg.jpg) no-repeat #3c3f42;
     background-size: cover;
   }
 }
 
 .foot-contact-block {
   background: #33363a;
-  padding: 40px 40px;
+  padding: 40px 38px;
   border-radius: 3px;
-  border-top: 4px solid #5bc198;
+  border-top: 4px solid #0a78c5;
   margin: -4px 0 0;
 }
 @media (min-width: 992px) {
@@ -2259,7 +2264,7 @@ footer {
   font-weight: 400;
 }
 .foot-contact-block h4 i {
-  background: #5bc198;
+  background: #0a78c5;
   color: #fff;
   padding: 7px;
   font-size: 13px;
@@ -2315,7 +2320,7 @@ footer {
   font-weight: 300;
 }
 .foot-link-box ul li a:hover {
-  color: #5bc198;
+  color: #df1c2c;
 }
 .foot-link-box ul li a i {
   margin-right: 14px;
@@ -2347,7 +2352,7 @@ footer {
 
 #scroll {
   float: right;
-  background: #5bc198;
+  background: #00a8d2;
   border-radius: 50%;
   width: 35px;
   height: 35px;
@@ -2360,7 +2365,8 @@ footer {
   -webkit-transform: translateY(-4px);
       -ms-transform: translateY(-4px);
           transform: translateY(-4px);
-  background: #df1c2c;
+  background: #0a78c5;
+  color: #fff;
 }
 #scroll i {
   padding: 11px 0;

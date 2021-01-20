@@ -906,8 +906,8 @@ a:focus {
           transform: translate(-50%, -50%);
 }
 .main-slider .slick-next:before {
-  content: url(../images/main-slider-arrow1.png);
-  background: #4d72d0;
+  content: url(../img/main-slider-arrow1.png);
+  background: #0a78c5;
   padding: 10px 14px;
 }
 .main-slider .slick-prev {
@@ -921,8 +921,8 @@ a:focus {
           transform: translate(-50%, -50%);
 }
 .main-slider .slick-prev:before {
-  content: url(../images/main-slider-arrow.png);
-  background: #4d72d0;
+  content: url(../img/main-slider-arrow.png);
+  background: #0a78c5;
   padding: 10px 14px;
 }
 .main-slider .slick-slide img {
@@ -977,10 +977,19 @@ a:focus {
   }
 }
 
+.slick-slide .slick-active{
+  width: 609px;
+}
+
 .slider-video {
   position: relative;
   display: inline-block;
   width: 100%;
+  height: 610px;
+}
+.img-fluid{
+  height: 100%;
+  width: 68px;
 }
 
 .slider-video-icon {
@@ -3752,9 +3761,9 @@ SERVICES 2
   z-index: 1;
 }
 .service-box2:hover {
-  background: #4d72d0;
+  background:#00a8d2;
   color: #fff;
-  border-color: #4d72d0;
+  border-color: #00a8d2;
 }
 .service-box2:hover .service-box2-img {
   background: #b73e54;
@@ -3765,8 +3774,13 @@ SERVICES 2
   color: #fff;
 }
 .service-box2 a {
-  text-decoration: underline;
+  text-decoration: none;
+  border-radius: 8px;
   font-size: 14px;
+  background-color: #00a8d2;
+}
+.service-box2 a:hover{
+  background-color: #d12e05 !important;
 }
 .service-box2 h3 {
   font-size: 23px;
@@ -3779,11 +3793,11 @@ SERVICES 2
 
 .service-box2-img {
   background: #fff;
-  padding: 16px;
+  padding: 7px;
   border-radius: 6px;
   margin: 0 0 16px;
-  -webkit-box-shadow: 0px 8px 20px -14px #4d72d0;
-          box-shadow: 0px 8px 20px -14px #4d72d0;
+  -webkit-box-shadow: 0px 8px 20px -14px#00a8d2;
+          box-shadow: 0px 8px 20px -14px #00a8d2;
   width: 73px;
 }
 
@@ -3794,7 +3808,10 @@ SERVICES 2
   left: 0;
   z-index: -1;
 }
-
+.service-box2:hover .service-box2-img{
+  background: #d12e05;
+  color: #fff;
+}
 /*------------------------------------------------------------------
 SERVICES DETAIL
 -------------------------------------------------------------------*/
@@ -4198,4 +4215,19 @@ SERVICE DETAIL
 .dental-features_list li h6 {
   font-size: 13px;
   margin: 0;
+}
+
+/* ========boton-whatsapp======= */
+.btn-whatsapp {
+  display:block;
+  width:70px;
+  height:70px;
+  color:#fff;
+  position: fixed;
+  right:20px;
+  bottom:20px;
+  border-radius:50%;
+  line-height:80px;
+  text-align:center;
+  z-index:999;
 }

@@ -9,30 +9,30 @@
             <!-- Service Icon -->
             <div class="col-md-4">
                 <div class="service-thumbnail services-top-icon d-flex flex-fill">
-                    <img src="{{asset('assets/img/icon5.png')}}" class="img-fluid" alt="#">
+                    <img src="{{asset('assets/img/iconos/medico.png')}}" class="img-fluid" alt="#">
                     <div class="service-thumbnail_text">
-                        <h4><span>Experienced</span> Doctors</h4>
-                        <p>Lorem ipsum dolor sit</p>
+                        <h4><span>Atención</span> Medica</h4>
+                        <p>En su domicilio, lugar de trabajo y/u otro lugar dentro de la cobertura</p>
                     </div>
                 </div>
             </div>
             <!-- Service Icon 02 -->
             <div class="col-md-4">
                 <div class="service-thumbnail services-top-icon d-flex flex-fill">
-                    <img src="{{asset('assets/img/icon6.png')}}" class="img-fluid" alt="#">
+                    <img src="{{asset('assets/img/iconos/salud.png')}}" class="img-fluid" alt="#">
                     <div class="service-thumbnail_text align-items-center">
-                        <h4><span>Painless</span> Treatments</h4>
-                        <p>Lorem ipsum dolor sit</p>
+                        <h4><span>Salud</span> Ocupacional</h4>
+                        <p>Disponemos de profesionales médicos especializados en salud ocupacional</p>
                     </div>
                 </div>
             </div>
             <!-- Service Icon 03 -->
             <div class="col-md-4">
                 <div class="service-thumbnail services-top-icon d-flex flex-fill">
-                    <img src="{{asset('assets/img/icon7.png')}}" class="img-fluid" alt="#">
+                    <img src="{{asset('assets/img/iconos/consultoria.png')}}" class="img-fluid" alt="#">
                     <div class="service-thumbnail_text">
-                        <h4><span>Top</span> Dental Equipment</h4>
-                        <p>Lorem ipsum dolor sit</p>
+                        <h4><span>Consultorias</span> </h4>
+                        <p>Análisis y explicación de conceptos de exámenes ocupacionales</p>
                     </div>
                 </div>
             </div>
@@ -41,8 +41,10 @@
         <div class="row">
             <div class="col-md-7">
                 <div class="about-title-block">
-                    <h3>A <span>totally fresh</span> take on going to the dentist</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                    <h3><span>Quienes</span> Somos</h3>
+                    <p>Somos un grupo de profesionales dedicados al servicio privado en el área de la salud integral 
+                        (medico/ambulatorio), salud ocupacional, jornadas preventivas de salud y consultorías en seguridad y salud a 
+                        toda la comunidad, trabajadores independientes, contratistas y empresas. Brindando CALIDAD Y SERVICIO.</p>
                 </div>
             </div>
         </div>
@@ -145,17 +147,17 @@
                 <div class="col-md-12">
                     <div class="sub-title_center">
                         <span>---- Nuestros Servicios ----</span>
-                        <h2>High Quality Services for You</h2>
+                        <h2>Contamos con un excelente servicio medico</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 d-flex flex-fill flex-column">
                     <div class="service-box2">
-                        <img src="{{asset('assets/img/008-implant.svg')}}" class="service-box2-img" alt="#">
+                        <img src="{{asset('assets/img/iconos/laboratorio-clinico.png')}}" class="service-box2-img" alt="#">
                         <h3>Laboratorio Clinico</h3>
                         <p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut labore </p>
-                        <a href="#">READ MORE</a>
+                        <a href="#" class="btn btn-primary">READ MORE</a>
                         <div class="service-box2-bg">
                             <img src="{{asset('assets/img/service-box-bg.png')}}" class="img-fluid w-100" alt="#">
                         </div>
@@ -163,10 +165,10 @@
                 </div>
                 <div class="col-md-4 d-flex flex-fill flex-column">
                     <div class="service-box2">
-                        <img src="{{asset('assets/img/009-teeth.svg')}}" class="service-box2-img" alt="#">
-                        <h3>Cosmetic Dentistry</h3>
+                        <img src="{{asset('assets/img/iconos/examenes.png')}}" class="service-box2-img" alt="#">
+                        <h3>Examenes</h3>
                         <p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut labore </p>
-                        <a href="#">READ MORE</a>
+                        <a href="#" class="btn btn-primary">READ MORE</a>
                         <div class="service-box2-bg">
                             <img src="{{asset('assets/img/service-box-bg.png')}}" class="img-fluid w-100" alt="#">
                         </div>
@@ -174,10 +176,10 @@
                 </div>
                 <div class="col-md-4 d-flex flex-fill flex-column">
                     <div class="service-box2">
-                        <img src="{{asset('assets/img/tooth.svg')}}" class="service-box2-img" alt="#">
-                        <h3>Root Canals</h3>
+                        <img src="{{asset('assets/img/iconos/electrocardiografia.png')}}" class="service-box2-img" alt="#">
+                        <h3>Electrocardiografia</h3>
                         <p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut labore </p>
-                        <a href="#">READ MORE</a>
+                        <a href="#" class="btn btn-primary">READ MORE</a>
                         <div class="service-box2-bg">
                             <img src="{{asset('assets/img/service-box-bg.png')}}" class="img-fluid w-100" alt="#">
                         </div>
@@ -187,10 +189,10 @@
             <div class="row">
                 <div class="col-md-4 d-flex flex-fill flex-column">
                     <div class="service-box2">
-                        <img src="{{asset('assets/img/dental.svg')}}" class="service-box2-img" alt="#">
-                        <h3>Dental Cleaning</h3>
+                        <img src="{{asset('assets/img/iconos/rayos-x.png')}}" class="service-box2-img" alt="#">
+                        <h3>Rayos X</h3>
                         <p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut labore </p>
-                        <a href="#">READ MORE</a>
+                        <a href="#" class="btn btn-primary">READ MORE</a>
                         <div class="service-box2-bg">
                             <img src="{{asset('assets/img/service-box-bg.png')}}" class="img-fluid w-100" alt="#">
                         </div>
@@ -198,10 +200,10 @@
                 </div>
                 <div class="col-md-4 d-flex flex-fill flex-column">
                     <div class="service-box2">
-                        <img src="{{asset('assets/img/teeth.svg')}}" class="service-box2-img" alt="#">
-                        <h3>Teeth Whitening</h3>
+                        <img src="{{asset('assets/img/iconos/espirometria.png')}}" class="service-box2-img" alt="#">
+                        <h3>Espirometria</h3>
                         <p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut labore </p>
-                        <a href="#">READ MORE</a>
+                        <a href="#" class="btn btn-primary">READ MORE</a>
                         <div class="service-box2-bg">
                             <img src="{{asset('assets/img/service-box-bg.png')}}" class="img-fluid w-100" alt="#">
                         </div>
@@ -209,10 +211,10 @@
                 </div>
                 <div class="col-md-4 d-flex flex-fill flex-column">
                     <div class="service-box2">
-                        <img src="{{asset('assets/img/gums.svg')}}" class="service-box2-img" alt="#">
-                        <h3>Teeth Fillings</h3>
+                        <img src="{{asset('assets/img/iconos/ecografia.png')}}" class="service-box2-img" alt="#">
+                        <h3>Ecografias</h3>
                         <p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut labore </p>
-                        <a href="#">READ MORE</a>
+                        <a href="#" class="btn btn-primary">READ MORE</a>
                         <div class="service-box2-bg">
                             <img src="{{asset('assets/img/service-box-bg.png')}}" class="img-fluid w-100" alt="#">
                         </div>

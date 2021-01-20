@@ -30,16 +30,15 @@
                 <div class="row">
                     <div class="col-md-4">
                         <ul class="topbar-social">
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.facebook.com/Medicexpress-100973331283413"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                         </ul>
                     </div>
                     <div class="col-md-8 d-flex justify-content-end">
                         <ul class="topbar-contact ml-auto">
-                            <li>medicexpress@example.com</li>
-                            <li>+123 456 7890</li>
+                            <li>servicioalcliente@medicexpress.com</li>
+                            <li>+593 969 665 037</li>
                             <li><a href="appointment.html" class="btn btn-success">Cotizar</a></li>
                         </ul>
                     </div>
@@ -86,24 +85,13 @@
                                                 Servicios <i class="fas fa-plus"></i>
                                             </a>
                                             <ul class="dropdown-menu">
-                                                <li class="dropdown">
-                                                    <a class="dropdown-item dropdown-toggle" data-toggle="dropdown"
-                                                        aria-haspopup="true" aria-expanded="false" href="#">Services <i class="fas fa-plus"></i></a>
-                                                    <ul class="dropdown-menu dropdown-menu1 dropdown-left">
-                                                        <li><a class="dropdown-item" href="services.html">Services
-                                                                One</a></li>
-                                                        <li><a class="dropdown-item" href="services-2.html">Services
-                                                                Two</a></li>
-                                                        <li><a class="dropdown-item" href="services-3.html">Services
-                                                                Three</a></li>
-                                                                <li><a class="dropdown-item" href="services-detail.html">Service
-                                                                    Detail</a></li>
-                                                    </ul>
+                                                <li class="nav-item">
+                                                    <a class="dropdown-item" href="#">Atención medica</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="dropdown-item" href="#">Promociones</a>
+                                                    <a class="dropdown-item" href="#">Salud ocupacional</a>
                                                 </li>
-                                                <li class="dropdown">
+                                                <!--<li class="dropdown">
                                                     <a class="dropdown-item dropdown-toggle" data-toggle="dropdown"
                                                         aria-haspopup="true" aria-expanded="false" href="#">Our Doctors <i class="fas fa-plus"></i></a>
                                                     <ul class="dropdown-menu dropdown-menu1">
@@ -111,35 +99,18 @@
                                                         <li><a class="dropdown-item" href="#">Doctors Two</a></li>
                                                         <li><a class="dropdown-item" href="#">Doctors Three</a></li>
                                                     </ul>
-                                                </li>
+                                                </li>-->
                                                 <li class="nav-item">
-                                                    <a class="dropdown-item" href="#">Blog</a>
+                                                    <a class="dropdown-item" href="#">Consultorias</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <!--//End Sub Menu -->
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3"
-                                                role="button" data-toggle="dropdown" aria-haspopup="true"
-                                                aria-expanded="false"> Blog <i class="fas fa-plus"></i> </a>
-                                            <div class="dropdown-menu dropdown-left" aria-labelledby="navbarDropdown">
-                                                <a class="dropdown-item" href="#">Blog Stadared</a>
-                                                <a class="dropdown-item" href="#">Blog List</a>
-                                                <a class="dropdown-item" href="#">Blog Grid</a>
-                                                <a class="dropdown-item" href="#">Blog Grid-2</a>
-                                                <a class="dropdown-item" href="#">Blog Details</a>
-                                            </div>
-                                        </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Contáctenos <i class="fas fa-plus"></i>
-                                    </a>
-                                    <div class="dropdown-menu dropdown-left" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="#">About</a>
-                                        <a class="dropdown-item" href="#">Contact One</a>
-                                        <a class="dropdown-item" href="#">Contact Two</a>
-                                        <a class="dropdown-item" href="#">Error 404</a>
-                                    </div>
+                                <li class="nav-item ">
+                                    <a class="nav-link " href="#" id="navbarDropdown3"> Blog </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link" id="navbarDropdown3">Contáctenos</a>
                                 </li>
                             </ul>
                         </div>
@@ -158,9 +129,9 @@
                         <div class="main-title slider-text-wrap">
                             <span>We are here for you</span>
                             <h1>What Makes Us Better, Makes <br> You Better.</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu lacus ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos ipsum dolor sit amet.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu lacus ex. 
+                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos ipsum dolor sit amet.</p>
                             <a href="#" class="btn btn-primary">Make Appointment</a>
-                            <!--<a href="https://www.youtube.com/watch?v=pBFQdxA-apI" class="play-btn popup-youtube"><i class="fas fa-play"></i></a>-->
                         </div>
 
                         <!--//End Slider Title -->
@@ -169,10 +140,10 @@
             </div>
             <div>
                 <div class="slider-video">
-                    <img src="{{asset('assets/img/slider2.jpg')}}" class="img-fluid" alt="#">
-                    <div class="slider-video-icon"><i class="fas fa-play"></i></div>
+                    <img src="{{asset('assets/img/banner/slider1.jpeg')}}" class="img-fluid" alt="#">
                 </div>
             </div>
+
             <div>
                 <div class="slider-img-block">
                     <div class="slider-img-text">
@@ -183,7 +154,6 @@
                             <h1>What Makes Us Better, Makes <br> You Better.</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu lacus ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos ipsum dolor sit amet.</p>
                             <a href="#" class="btn btn-primary">Make Appointment</a>
-                            <!--<a href="https://www.youtube.com/watch?v=pBFQdxA-apI" class="play-btn popup-youtube"><i class="fas fa-play"></i></a>-->
                         </div>
                         <!--//End Slider Title -->
                     </div>
@@ -191,8 +161,56 @@
             </div>
             <div>
                 <div class="slider-video">
-                    <img src="{{asset('assets/img/slider2.jpg')}}" class="img-fluid" alt="#">
-                    <div class="slider-video-icon"><i class="fas fa-play"></i></div>
+                    <img src="{{asset('assets/img/banner/slider2.jpeg')}}" class="img-fluid" alt="#" style="height: 610px">
+                   
+                </div>
+            </div>
+
+            <div>
+                <div class="slider-img-block">
+                    <div class="slider-img-text">
+                        <img src="{{asset('assets/img/slider1.jpg')}}" class="img-fluid" alt="#">
+                        <!-- Slider Title -->
+
+                        <div class="main-title slider-text-wrap">
+                            <span>We are here for you</span>
+                            <h1>What Makes Us Better, Makes <br> You Better.</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu lacus ex. 
+                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos ipsum dolor sit amet.</p>
+                            <a href="#" class="btn btn-primary">Make Appointment</a>
+                        </div>
+
+                        <!--//End Slider Title -->
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="slider-video">
+                    <img src="{{asset('assets/img/banner/slider3.jpeg')}}" class="img-fluid" alt="#">
+                </div>
+            </div>
+
+            <div>
+                <div class="slider-img-block">
+                    <div class="slider-img-text">
+                        <img src="{{asset('assets/img/slider1.jpg')}}" class="img-fluid" alt="#">
+                        <!-- Slider Title -->
+
+                        <div class="main-title slider-text-wrap">
+                            <span>We are here for you</span>
+                            <h1>What Makes Us Better, Makes <br> You Better.</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu lacus ex. 
+                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos ipsum dolor sit amet.</p>
+                            <a href="#" class="btn btn-primary">Make Appointment</a>
+                        </div>
+
+                        <!--//End Slider Title -->
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="slider-video">
+                    <img src="{{asset('assets/img/banner/slider4.jpeg')}}" class="img-fluid" alt="#">
                 </div>
             </div>
         </div>
@@ -200,6 +218,12 @@
     <!--//End Header -->
     @yield('content')
 
+    <!--==================whatsapp====================-->
+    <div class="btn-whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=+593 969 665 037" target="_blank">
+            <img src="http://s2.accesoperu.com/logos/btn_whatsapp.png" alt="" style="width: 60px">
+        </a>
+    </div>
     <!--==================== Footer ====================-->
     <footer>
         <div class="container container-custom">
@@ -208,14 +232,21 @@
                     <div class="foot-contact-block">
                         <img src="{{asset('assets/img//logo/logo.jpg')}}" class="img-fluid" alt="#"  style="width: 160px;"/>
                         <p>
-                            Lorem ipsum dolor sit amet, consect <br /> etur adipisicing elit, sed do eius mod <br />
-                            tempor incididunt ut labore et dolore<br /> magna aliqua. Ut enim ad minim
+                            Forjando juntos una intervención efectiva, 
+                            eficiente y eficaz al compromiso de mejorar la calidad de vida y 
+                            siguiendo las normativas vigentes establecidas a nivel Nacional.
                         </p>
-                        <a href="tel:31234567890">
-                            <h4><i class="fas fa-phone"></i>3123 456 7890</h4>
+                        <a href="tel:+593 969 665 037">
+                            <h4><i class="fas fa-phone"></i>+593 969 665 037</h4>
                         </a>
-                        <a href="mailto:info@mededin.com">
+                        <a href="tel:+593 979 353 429">
+                            <h4><i class="fas fa-phone"></i>+593 979 353 429</h4>
+                        </a>
+                        <a href="mailto:medicexpress@exam.com">
                             <h4><i class="far fa-envelope"></i>medicexpress@exam.com</h4>
+                        </a>
+                        <a href="https://www.google.com.co/maps/search/Urdenor+1+MZ+139+EDIF.+Citrino+Ofc305/@-2.1477985,-79.9030497,17.26z?hl=es-419">
+                            <h4><i class="fa fa-map-marker-alt"></i>Urdenor 1 MZ 139 EDIF. Citrino Ofc305</h4>
                         </a>
                     </div>
                 </div>
@@ -224,23 +255,19 @@
                         <h4>Quick Links</h4>
                         <ul>
                             <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>About Us</a>
+                                <a href="#"><i class="fas fa-angle-double-right"></i>Quienes somos</a>
+                            </li>
+                            
+                            <li>
+                                <a href="#"><i class="fas fa-angle-double-right"></i>Nuestros servicios</a>
                             </li>
                             <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Our Mission</a>
+                                <a href="#"><i class="fas fa-angle-double-right"></i>Blog</a>
                             </li>
                             <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Our Services</a>
+                                <a href="#"><i class="fas fa-angle-double-right"></i>Contacto</a>
                             </li>
-                            <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Blogs & News</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Contact Us</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fas fa-angle-double-right"></i>Faq</a>
-                            </li>
+                            
                         </ul>
                     </div>
                 </div>

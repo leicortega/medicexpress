@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- icon -->
-    <link rel="shortcut icon" href="{{asset('assets/img/logo/logo.jpg')}}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{asset('assets/img/logo/icono.png')}}" type="image/x-icon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
     <!-- Google fonts -->

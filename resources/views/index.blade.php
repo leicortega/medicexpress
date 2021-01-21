@@ -51,14 +51,14 @@
         <a href="#" class="btn btn-primary mt-4">Leer mas</a>
         </div>
     </section>
-    <!--==================== Form ====================-->
+    <!--==================== Form cotizacion ====================-->
     <section class="space about-form">
         <div class="container container-custom">
             <div class="row">
                 <div class="col-md-7 col-lg-8">
                     <div class="heading-style1 mb-0">
                         <span>----Cotiza ya----</span>
-                        <h2>Short Story About Mededin Clinic, Newyork</h2>
+                        <h2>Que esperas para realizar tu cotización</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor inc ididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                     </div>
                     <div class="row">
@@ -224,4 +224,202 @@
         </div>
     </section>
     <!--//End Services2 -->
+    <!--==================== Blog Grid ====================-->
+    <section class="space light">
+        <div class="container container-custom">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading-style1">
+                        <span>--- Blog ----</span>
+                        <h2>Últimas noticias y eventos</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="service-slider blog-slider">
+                        <div class="blog-grid-wrap">
+                            <div class="blog-grid-img">
+                                <img src="{{asset('assets/img/blog-grid1.jpg')}}" class="img-fluid" alt="#">
+                                <div class="blog-grid-date">
+                                    <h5>25</h5>
+                                    <p>May</p>
+                                </div>
+                            </div>
+                            <div class="blog-grid_content">
+                                <div class="blog-grid-top_icon">
+                                    <label>Mediacal</label>
+                                    <p><i class="far fa-eye"></i>233 <span>|</span> <i class="far fa-comment"></i>33</p>
+                                </div>
+                                <div class="blog-grid_text">
+                                    <a href="#">
+                                        <h4>Telemedicine overprescribes antibiotics: Are you real...</h4>
+                                    </a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adi pisicing elit, sed do eius mod tempor </p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="blog-grid-wrap">
+                            <div class="blog-grid-img">
+                                <img src="{{asset('assets/img/blog-grid2.jpg')}}" class="img-fluid" alt="#">
+                                <div class="blog-grid-date">
+                                    <h5>15</h5>
+                                    <p>Jan</p>
+                                </div>
+                            </div>
+                            <div class="blog-grid_content">
+                                <div class="blog-grid-top_icon">
+                                    <label>Mediacal</label>
+                                    <p><i class="far fa-eye"></i>233 <span>|</span> <i class="far fa-comment"></i>33</p>
+                                </div>
+                                <div class="blog-grid_text">
+                                    <a href="#">
+                                        <h4>How often should I replace my toothbrush?..</h4>
+                                    </a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adi pisicing elit, sed do eius mod tempor </p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="blog-grid-wrap">
+                            <div class="blog-grid-img">
+                                <img src="{{asset('assets/img/blog-grid3.jpg')}}" class="img-fluid" alt="#">
+                                <div class="blog-grid-date">
+                                    <h5>05</h5>
+                                    <p>Jun</p>
+                                </div>
+                            </div>
+                            <div class="blog-grid_content">
+                                <div class="blog-grid-top_icon">
+                                    <label>Mediacal</label>
+                                    <p><i class="far fa-eye"></i>233 <span>|</span> <i class="far fa-comment"></i>33</p>
+                                </div>
+                                <div class="blog-grid_text">
+                                    <a href="#">
+                                        <h4>Things you may not know about medicaid </h4>
+                                    </a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adi pisicing elit, sed do eius mod tempor </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-grid-wrap">
+                            <div class="blog-grid-img">
+                                <img src="{{asset('assets/img/blog-grid4.jpg')}}" class="img-fluid" alt="#">
+                                <div class="blog-grid-date">
+                                    <h5>26</h5>
+                                    <p>May</p>
+                                </div>
+                            </div>
+                            <div class="blog-grid_content">
+                                <div class="blog-grid-top_icon">
+                                    <label>Mediacal</label>
+                                    <p><i class="far fa-eye"></i>233 <span>|</span> <i class="far fa-comment"></i>233</p>
+                                </div>
+                                <div class="blog-grid_text">
+                                    <a href="#">
+                                        <h4>Telemedicine overprescribes antibiotics: Are you real...</h4>
+                                    </a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adi pisicing elit, sed do eius mod tempor </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//End Blog Grid -->
+    <!--==================== contact us ====================-->
+    <section class="space background-bg4">
+        <div class="container container-custom">
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                    <div class="appointment-form_wrap">
+                        <div class="heading-style1">
+                            <span>---Contácto Medicexpress---</span>
+                            <h2>Contáctanos</h2>
+                        </div>
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group form-group-cutom">
+                                        <input type="text" class="form-control form-custom" placeholder="Ingrese su nombre">
+                                        <i class="far fa-user"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group form-group-cutom">
+                                        <input type="email" class="form-control form-custom" placeholder="Ingrese su correo">
+                                        <i class="far fa-envelope"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group form-group-cutom">
+                                        <input type="number" class="form-control form-custom" placeholder="Ingrese su numero telefonico">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group form-group-cutom">
+                                        <label for="exampleFormControlTextarea1">Mensaje</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <a href="#" class="btn btn-success">Enviar mensaje</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="why-choose_block">
+                        <div class="heading-style1 mb-0">
+                            <span>Nosotros</span>
+                            <h2>Por qué elegirnos</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing <br> elit, sed do eius mod tempor inc ididuntut</p>
+                            <hr>
+                        </div>
+                        <div class="whychoose-wrap">
+                            <img src="{{asset('assets/img/iconos/hospital.png')}}" alt="#">
+                            <div class="whychoose-text_block">
+                                <h4>Urgencias</h4>
+                                <p>Servicio de urgencias todos los dias</p>
+                            </div>
+                        </div>
+                        <div class="whychoose-wrap">
+                            <img src="{{asset('assets/img/iconos/ambulancia.png')}}" alt="#">
+                            <div class="whychoose-text_block">
+                                <h4>Servicio de ambulancia</h4>
+                                <p>Traslado en ambulancia a su centro medico</p>
+                            </div>
+                        </div>
+                        <div class="whychoose-wrap">
+                            <img src="{{asset('assets/img/iconos/evento.png')}}" alt="#">
+                            <div class="whychoose-text_block">
+                                <h4>Cobertura de Eventos</h4>
+                                <p>Asistencia médica con unidad Móvil en eventos empresariales</p>
+                            </div>
+                        </div>
+                        <div class="whychoose-wrap mb-0">
+                            <img src="{{asset('assets/img/iconos/rapido.png')}}" alt="#">
+                            <div class="whychoose-text_block">
+                                <h4>Atención Medica 24h/7 </h4>
+                                <p>Asistencia médica en su domicilio, lugar de trabajo y/u otro lugar </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection

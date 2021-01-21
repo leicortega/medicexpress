@@ -157,7 +157,7 @@ URL: https://themeforest.net/user/surjithctly/
 }
 
 .btn-primary {
-  background-color: #00a8d2 !important;
+  background-color: #f84159 !important;
   border: none !important;
   border-radius: 32px;
   padding: 13px 27px;
@@ -171,8 +171,8 @@ URL: https://themeforest.net/user/surjithctly/
   font-size: 13px;
 }
 .btn-primary:hover {
-  background: #0a78c5 !important;
-  border-color: #0a78c5 !important;
+  background:#df1c2c !important;
+  border-color: #df1c2c !important;
 }
 .btn-primary:focus {
   -webkit-box-shadow: none !important;
@@ -180,7 +180,7 @@ URL: https://themeforest.net/user/surjithctly/
 }
 
 .btn-success {
-  background-color: #d12e05;
+  background-color:#f84159;
   border-radius: 0px;
   padding: 18px 38px;
   border-radius: 6px;
@@ -201,12 +201,15 @@ URL: https://themeforest.net/user/surjithctly/
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
 }
+.btn-success:active{
+  background-color: #df1c2c !important;
+}
 
 .btn-success:not(:disabled):not(.disabled).active,
 .btn-success:not(:disabled):not(.disabled):active,
 .show > .btn-success.dropdown-toggle {
-  background: #4aab84 !important;
-  border-color: #4aab84 !important;
+  background: #df1c2c !important;
+  border-color: #df1c2c !important;
 }
 
 .btn-success:not(:disabled):not(.disabled).active:focus,
@@ -348,7 +351,7 @@ textarea {
 
 .form-custom {
   background: none;
-  border-bottom: 2px solid #7898dd;
+  border-bottom: 2px solid #fff;
   border-top: 0;
   border-right: 0;
   border-left: 0;
@@ -1024,6 +1027,8 @@ a:focus {
 
 /* --------- About Section --------- */
 .about-section a{
+  margin-top: 0 !important;
+  margin-bottom: 24px;
   border-radius: 8px;
   font-size: 13px;
 }
@@ -1324,7 +1329,7 @@ a:focus {
 }
 
 .about-form {
-  background: url(../images/bg-home-form.jpg) no-repeat;
+  background: url(../img/bg-home-form.jpg) no-repeat;
   background-size: cover;
 }
 .about-form p {
@@ -1425,7 +1430,7 @@ a:focus {
   margin: 0 0 30px;
 }
 .heading-style1 span {
-  color: #4d72d0;
+  color: #0a78c5;
   font-style: italic;
   position: relative;
   font-weight: 500;
@@ -2361,7 +2366,7 @@ footer {
 
 #scroll {
   float: right;
-  background: #00a8d2;
+  background: #f84159;
   border-radius: 50%;
   width: 35px;
   height: 35px;
@@ -2374,12 +2379,12 @@ footer {
   -webkit-transform: translateY(-4px);
       -ms-transform: translateY(-4px);
           transform: translateY(-4px);
-  background: #0a78c5;
+  background: #df1c2c;
   color: #fff;
 }
 #scroll i {
   padding: 11px 0;
-  color: #000;
+  color:#fff;
   font-size: 12px;
 }
 
@@ -2813,13 +2818,13 @@ APPOINTMENT
 -------------------------------------------------------------------*/
 /* --------- Appointment --------- */
 .background-bg4 {
-  background: #f4f6fa;
+  background: #fff;
   position: relative;
 }
 .background-bg4::before {
   position: absolute;
   content: "";
-  background: url(../images/appointment-bg.png) no-repeat #4d72d0;
+  background: url(../images/appointment-bg.png) no-repeat #00a8d2;
   background-size: cover;
   top: 0;
   left: 0;
@@ -2877,17 +2882,17 @@ APPOINTMENT
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
-  border-color: #5bc198;
+  border-color: #fff;
 }
 .appointment-form_wrap label {
   font-weight: 300;
 }
 .appointment-form_wrap textarea {
   border-radius: 0;
-  border: 2px solid #7898dd;
+  border: 2px solid #fff;
 }
 .appointment-form_wrap textarea:focus {
-  border-color: #5bc198;
+  border-color: #fff;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -3251,7 +3256,7 @@ BLOG GRID 2
 
 .blog-grid-date {
   position: absolute;
-  background: #5bc198;
+  background: #f84159;
   text-align: center;
   padding: 6px 15px;
   color: #fff;
@@ -3276,8 +3281,8 @@ BLOG GRID 2
 .blog-grid-top_icon label {
   margin: 0;
   font-size: 12px;
-  border: 1px solid #4d72d0;
-  color: #4d72d0;
+  border: 1px solid #0a78c5;
+  color:#00a8d2;
   border-radius: 22px;
   padding: 3px 14px;
 }
@@ -3289,7 +3294,7 @@ BLOG GRID 2
   opacity: 0.6;
 }
 .blog-grid-top_icon p i {
-  color: #4d72d0;
+  color: #00a8d2;
   margin: 0 8px 0 0;
 }
 .blog-grid-top_icon p span {
@@ -3307,7 +3312,7 @@ BLOG GRID 2
 }
 .blog-grid_text a:hover {
   text-decoration: none;
-  color: #4d72d0;
+  color:#0a78c5;
 }
 .blog-grid_text a h4 {
   font-size: 19px;
@@ -4224,7 +4229,8 @@ SERVICE DETAIL
   height:70px;
   color:#fff;
   position: fixed;
-  right:20px;
+  /* right:20px; */
+  left: 20px;
   bottom:20px;
   border-radius:50%;
   line-height:80px;

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- icon -->
-    <link rel="shortcut icon" href="{{asset('assets/img/logo/icono.png')}}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{asset('assets/img/logo/icono.svg')}}" type="image/x-icon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
     <!-- Google fonts -->
@@ -50,7 +50,7 @@
                 <div class="col-md-12">
                     <!-- Nav menu -->
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="#"><img src="{{asset('assets/img/logo/logo.jpg')}}" alt="#" style="width: 145px;" /></a>
+                        <a class="navbar-brand" href="#"><img src="{{asset('assets/img/logo/logo.svg')}}" alt="#" style="width: 145px;" /></a>
                         <button class="navbar-toggler nav-custome1" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle
                                 navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -230,7 +230,7 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-4">
                     <div class="foot-contact-block">
-                        <img src="{{asset('assets/img//logo/logo.jpg')}}" class="img-fluid" alt="#"  style="width: 160px;"/>
+                        <img src="{{asset('assets/img//logo/logo.svg')}}" class="img-fluid" alt="#"  style="width: 160px; background-color: #fff;"/>
                         <p>
                             Forjando juntos una intervención efectiva, 
                             eficiente y eficaz al compromiso de mejorar la calidad de vida y 
@@ -242,8 +242,8 @@
                         <a href="tel:+593 979 353 429">
                             <h4><i class="fas fa-phone"></i>+593 979 353 429</h4>
                         </a>
-                        <a href="mailto:medicexpress@exam.com">
-                            <h4><i class="far fa-envelope"></i>medicexpress@exam.com</h4>
+                        <a href="mailto:servicioalcliente@medicexpress.com">
+                            <h4><i class="far fa-envelope"></i>servicio al cliente</h4>
                         </a>
                         <a href="https://www.google.com.co/maps/search/Urdenor+1+MZ+139+EDIF.+Citrino+Ofc305/@-2.1477985,-79.9030497,17.26z?hl=es-419">
                             <h4><i class="fa fa-map-marker-alt"></i>Urdenor 1 MZ 139 EDIF. Citrino Ofc305</h4>
